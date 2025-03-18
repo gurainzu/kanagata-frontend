@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kanagata - Project</title>
     <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 </head>
 
-<body class="bg-[#FAFBFD]">
+<body class="bg-[#FAFBFD] max-w-screen">
     <div class="flex p-4 justify-between items-center bg-white">
         <div class="flex">
             <h1 class="bg-[#5E5FEF] w-[40px] h-[40px] rounded-lg mr-4"></h1>
@@ -162,11 +165,30 @@
             </a>
         </div>
         <div class="w-8/10 h-auto p-4 rounderd-2 rounded-xl">
-            <div class="bg-white">
+            <div class="bg-white p-8 rounded-xl font-poppins text-center">
                 <!-- Tabel-nya disini -->
+                <table id="animeTable" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Ranking</th>
+                            <th>Title</th>
+                            <th>Type</th>
+                            <th>Episodes</th>
+                            <th>Score</th>
+                            <th>Status</th>
+                            <th>Release Date</th>
+                            <th>Finished Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
