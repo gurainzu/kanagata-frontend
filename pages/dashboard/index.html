@@ -338,7 +338,7 @@
                         <div
                             class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
                             <div class="flex justify-between items-center pt-5">
-                                <a href="#"
+                                <a href="../../pages/insight/"
                                     class="uppercase text-sm font-semibold inline-flex items-center rounded-lg text-blue-600 hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2">
                                     Insight
                                     <svg class="w-2.5 h-2.5 ms-1.5 rtl:rotate-180" aria-hidden="true"
@@ -365,7 +365,7 @@
                         <div
                             class="grid grid-cols-1 items-center border-gray-200 border-t dark:border-gray-700 justify-between">
                             <div class="flex justify-between items-center pt-5">
-                                <a href="#"
+                                <a href="../../pages/insight/"
                                     class="uppercase text-sm font-semibold inline-flex items-center rounded-lg text-blue-600 hover:text-blue-700 dark:hover:text-blue-500  hover:bg-gray-100 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 px-3 py-2">
                                     Insight
                                     <svg class="w-2.5 h-2.5 ms-1.5 rtl:rotate-180" aria-hidden="true"
@@ -382,7 +382,7 @@
             <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
                 <div class="w-full p-4 bg-gray-50 rounded-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex items-center justify-between mb-4">
-                        <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Customers</h5>
+                        <h5 class="text-3xl font-bold leading-none text-gray-900 dark:text-white">Customers</h5>
                         <a href="../../pages/customer/"
                             class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
                             View all
@@ -464,7 +464,7 @@
                 </div>
                 <div class="w-full p-4 bg-gray-50 rounded-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                     <div class="flex items-center justify-between mb-4">
-                        <h5 class="text-xl font-bold leading-none text-gray-900 dark:text-white">Tutors</h5>
+                        <h5 class="text-3xl font-bold leading-none text-gray-900 dark:text-white">Tutors</h5>
                         <a href="../../pages/tutor/"
                             class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
                             View all
@@ -588,6 +588,405 @@
                                 </div>
                             </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-50 mb-4">
+                <div class="flex items-center justify-between p-8 border-b border-gray-200">
+                    <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">Projects
+                    </h5>
+                    <a href="../../pages/project/"
+                        class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                        View all
+                    </a>
+                </div>
+                <div class="relative overflow-x-auto sm:rounded-lg bg-gray-50">
+                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+                        <thead
+                            class="text-xs text-gray-700 text-center uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400 border-b border-gray-200">
+                            <tr>
+                                <th scope="col" class="px-6 py-3">No</th>
+                                <th scope="col" class="px-6 py-3">
+                                    COA
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Customer
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Kegiatan
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    PR
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Grade
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Quantity
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Rate
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    GT Revenue
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Quantity
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Rate
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    GT Cost
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    GT Margin
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Summary AR
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    AR Paid
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    AR OS
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    Summary AP
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    AP Paid
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    AP OS
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    To Do
+                                </th>
+                                <th scope="col" class="px-6 py-3">
+                                    AR AP
+                                </th>
+                                <th scope="col" class="px-6 py-3 sticky right-0 bg-gray-50">
+                                    Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr
+                                class="odd:bg-white odd:dark:bg-gray-900 even:bg-gray-50 even:dark:bg-gray-800 border-b dark:border-gray-700 border-gray-200">
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    1
+                                </th>
+                                <th scope="row"
+                                    class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                    Apple MacBook Pro 17"
+                                </th>
+                                <td class="px-6 py-4">
+                                    Silver
+                                </td>
+                                <td class="px-6 py-4">
+                                    Laptop
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4">
+                                    $2999
+                                </td>
+                                <td class="px-6 py-4 sticky right-0 bg-white flex">
+                                    <a href="#"
+                                        class="mx-2 font-medium text-blue-600 dark:text-blue-500 bg-blue-100 hover:bg-blue-200 px-4 py-1 rounded-md">Edit</a>
+                                    <a href="#"
+                                        class="mx-2 font-medium text-red-600 dark:text-red-500 bg-red-100 hover:bg-red-200 px-4 py-1 rounded-md">Delete</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
+                <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
+                    <div class="w-full bg-gray-50 rounded-lg p-4 md:p-6">
+                        <div class="flex items-center justify-between">
+                            <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">Logsheet
+                            </h5>
+                            <a href="../../pages/logsheet/"
+                                class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                                View all
+                            </a>
+                        </div>
+                        <div class="py-4 mt-4">
+                            <ol class="relative border-s border-gray-200 dark:border-gray-700">
+                                <li class="mb-10 ms-4 border-b border-gray-200 pb-4">
+                                    <div
+                                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                                    </div>
+                                    <time
+                                        class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February
+                                        2025</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">TA 24/25 - PR.21
+                                    </h3>
+                                    <div class="">
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">Customer
+                                            :
+                                            SMKN
+                                            20 Jakarta</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                            AR : Listing</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Tutor
+                                            : Royyan Hidayat</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-green-900 dark:text-green-300">Status
+                                            AP : Paid</span>
+                                    </div>
+                                </li>
+                                <li class="mb-10 ms-4 border-b border-gray-200 pb-4">
+                                    <div
+                                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                                    </div>
+                                    <time
+                                        class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February
+                                        2025</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">TA 24/25 - PR.22
+                                    </h3>
+                                    <div class="">
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">Customer
+                                            :
+                                            SMKN
+                                            22 Jakarta</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                            AR : Listing</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Tutor
+                                            : Royyan Hidayat</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-green-900 dark:text-green-300">Status
+                                            AP : Paid</span>
+                                    </div>
+                                </li>
+                                <li class="mb-10 ms-4 border-b border-gray-200 pb-4">
+                                    <div
+                                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                                    </div>
+                                    <time
+                                        class="mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">February
+                                        2025</time>
+                                    <h3 class="text-lg font-semibold text-gray-900 dark:text-white">TA 24/25 - PR.23
+                                    </h3>
+                                    <div class="">
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-gray-100 text-gray-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">Customer
+                                            :
+                                            SMKN
+                                            20 Jakarta</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                            AR : Listing</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Tutor
+                                            : Imaddudin HB</span>
+                                        <span
+                                            class="whitespace-nowrap inline-block my-2 bg-green-100 text-green-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-green-900 dark:text-green-300">Status
+                                            AP : Paid</span>
+                                    </div>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
+                    <div class="w-full p-4 rounded-lg md:p-6 sm:p-8 dark:bg-gray-800 dark:border-gray-700">
+                        <div class="flex items-center justify-between mb-4">
+                            <h5 class="text-3xl font-bold leading-none text-gray-900 dark:text-white">Ledger
+                            </h5>
+                            <a href="../../pages/ledger/"
+                                class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">
+                                View all
+                            </a>
+                        </div>
+                        <div class="flow-root">
+                            <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                                <li class="py-3 sm:py-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                                Rizal Ramadhanu
+                                            </p>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Description
+                                                : Cost Operation</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Budget
+                                                : Maret 2025</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-indigo-900 dark:text-indigo-300">Sub
+                                                Budget : By Payroll</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                                : Listing</span>
+                                        </div>
+                                        <div
+                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            Rp2.000.000
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-3 sm:py-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                                Wirakusuma
+                                            </p>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Description
+                                                : Cost Operation</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Budget
+                                                : Maret 2025</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-indigo-900 dark:text-indigo-300">Sub
+                                                Budget : By Payroll</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                                : Listing</span>
+                                        </div>
+                                        <div
+                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            Rp1.000.000
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-3 sm:py-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                                Dwi Caesario
+                                            </p>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Description
+                                                : Cost Operation</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Budget
+                                                : Maret 2025</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-indigo-900 dark:text-indigo-300">Sub
+                                                Budget : By Payroll</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-green-900 dark:text-green-300">Status
+                                                : Paid</span>
+                                        </div>
+                                        <div
+                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            Rp0
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-3 sm:py-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                                Firly Salsabilla
+                                            </p>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Description
+                                                : Cost Operation</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Budget
+                                                : Maret 2025</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-indigo-900 dark:text-indigo-300">Sub
+                                                Budget : By Payroll</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                                : Listing</span>
+                                        </div>
+                                        <div
+                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            Rp750.000
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-3 sm:py-4">
+                                    <div class="flex items-center">
+                                        <div class="flex-1 min-w-0">
+                                            <p class="text-lg font-medium text-gray-900 truncate dark:text-white">
+                                                Rizal Setiadi
+                                            </p>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-red-900 dark:text-red-300">Description
+                                                : Cost Operation</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-blue-100 text-blue-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-blue-900 dark:text-blue-300">Budget
+                                                : Maret 2025</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-indigo-100 text-indigo-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-indigo-900 dark:text-indigo-300">Sub
+                                                Budget : By Payroll</span>
+                                            <span
+                                                class="whitespace-nowrap inline-block my-2 bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-yellow-900 dark:text-yellow-300">Status
+                                                : Listing</span>
+                                        </div>
+                                        <div
+                                            class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
+                                            Rp1.000.000
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
