@@ -32,19 +32,19 @@
                     </a>
                 </div>
                 <div>
-                    <h1 class="self-center text-xl sm:text-2xl font-semibold">Dashboard</h1>
+                    <h1 class="self-center text-xl sm:text-2xl font-semibold dark:text-white">Dashboard</h1>
                 </div>
                 <div class="flex items-center">
                     <div class="flex items-center ms-3">
                         <div>
                             <button type="button"
-                                class="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                                class="flex text-sm bg-gray-800 dark:bg-white rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
                                 aria-expanded="false" data-dropdown-toggle="dropdown-user">
                                 <span class="sr-only">Open user menu</span>
                                 <!-- <img class="w-8 h-8 rounded-full"
                                     src="https://flowbite.com/docs/images/people/profile-picture-5.jpg"
                                     alt="user photo"> -->
-                                <svg class="w-8 h-8 p-1 text-white dark:text-white" aria-hidden="true"
+                                <svg class="w-8 h-8 p-1 text-white dark:text-gray-800" aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
                                     <path fill-rule="evenodd"
                                         d="M12 4a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm-2 9a4 4 0 0 0-4 4v1a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-1a4 4 0 0 0-4-4h-4Z"
@@ -181,13 +181,11 @@
             <div class="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mb-4 ">
                 <div class="flex items-center h-auto rounded-sm bg-gray-50 dark:bg-gray-800">
                     <div class="w-full p-8">
-                        <div class="flex flex-1 items-center">
-                            <p class="pe-4 font-semibold text-2xl">This Month</p>
-                            <div class="inline-block w-0.5 self-stretch bg-neutral-100">
-                            </div>
-                            <p class="ps-4 font-light text-sm">January</p>
+                        <div class="flex flex-1 items-center justify-between">
+                            <p class="pe-4 font-semibold text-2xl dark:text-white">This Month</p>
+                            <p class="ps-4 font-light text-sm dark:text-white">January</p>
                         </div>
-                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 dark:text-white">
                             <li class="py-3 sm:py-4">
                                 <div class="flex justify-between">
                                     <p>Revenue</p>
@@ -229,13 +227,11 @@
                 </div>
                 <div class="flex items-center h-auto rounded-sm bg-gray-50 dark:bg-gray-800">
                     <div class="w-full p-8">
-                        <div class="flex flex-1 items-center">
+                        <div class="flex flex-1 items-center justify-between dark:text-white">
                             <p class="pe-4 font-semibold text-2xl">Summary</p>
-                            <div class="inline-block w-0.5 self-stretch bg-neutral-100">
-                            </div>
                             <p class="ps-4 font-light text-sm">2025</p>
                         </div>
-                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 dark:text-white">
                             <li class="py-3 sm:py-4">
                                 <div class="flex justify-between">
                                     <p>Revenue</p>
@@ -277,13 +273,11 @@
                 </div>
                 <div class="flex items-center h-auto rounded-sm bg-gray-50 dark:bg-gray-800">
                     <div class="w-full p-8">
-                        <div class="flex flex-1 items-center">
+                        <div class="flex flex-1 items-center justify-between dark:text-white">
                             <p class="pe-4 font-semibold text-2xl">Average</p>
-                            <div class="inline-block w-0.5 self-stretch bg-neutral-100">
-                            </div>
                             <p class="ps-4 font-light text-sm">2025</p>
                         </div>
-                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700">
+                        <ul role="list" class="divide-y divide-gray-200 dark:divide-gray-700 dark:text-white">
                             <li class="py-3 sm:py-4">
                                 <div class="flex justify-between">
                                     <p>Revenue</p>
@@ -326,7 +320,7 @@
             </div>
             <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
                 <div class="flex items-center rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <div class="w-full bg-gray-50 rounded-lg p-4 md:p-6">
+                    <div class="w-full bg-gray-50 dark:bg-gray-800 rounded-lg p-4 md:p-6">
                         <div class="flex justify-between">
                             <div>
                                 <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">2025
@@ -352,7 +346,7 @@
                     </div>
                 </div>
                 <div class="flex items-center rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <div class="w-full bg-gray-50 rounded-lg p-4 md:p-6">
+                    <div class="w-full bg-gray-50 dark:bg-gray-800 rounded-lg p-4 md:p-6">
                         <div class="flex justify-between">
                             <div>
                                 <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">2025
@@ -407,7 +401,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Details
                                         </a>
                                     </div>
@@ -430,7 +424,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Details
                                         </a>
                                     </div>
@@ -453,7 +447,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Details
                                         </a>
                                     </div>
@@ -489,7 +483,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Schedule
                                         </a>
                                     </div>
@@ -512,7 +506,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Schedule
                                         </a>
                                     </div>
@@ -535,7 +529,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Schedule
                                         </a>
                                     </div>
@@ -558,7 +552,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Schedule
                                         </a>
                                     </div>
@@ -581,7 +575,7 @@
                                     <div
                                         class="inline-flex items-center text-base font-semibold text-gray-900 dark:text-white">
                                         <a href="#"
-                                            class="text-sm font-medium text-blue-600 bg-blue-100 px-2 py-1 rounded-sm hover:bg-blue-200 dark:text-blue-500">
+                                            class="text-sm font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 px-2 py-1 rounded-sm hover:bg-blue-200 dark:hover:bg-blue-700">
                                             Schedule
                                         </a>
                                     </div>
@@ -592,7 +586,7 @@
                 </div>
             </div>
 
-            <div class="bg-gray-50 mb-4">
+            <div class="bg-gray-50 dark:bg-gray-800 rounded-sm mb-4">
                 <div class="flex items-center justify-between p-8 border-b border-gray-200">
                     <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">Projects
                     </h5>
@@ -667,7 +661,7 @@
                                 <th scope="col" class="px-6 py-3">
                                     AR AP
                                 </th>
-                                <th scope="col" class="px-6 py-3 sticky right-0 bg-gray-50">
+                                <th scope="col" class="px-6 py-3 sticky right-0 bg-gray-50 dark:bg-gray-700 ">
                                     Action
                                 </th>
                             </tr>
@@ -740,11 +734,11 @@
                                 <td class="px-6 py-4">
                                     $2999
                                 </td>
-                                <td class="px-6 py-4 sticky right-0 bg-white flex">
+                                <td class="px-6 py-4 sticky right-0 bg-white dark:bg-gray-900 flex">
                                     <a href="#"
-                                        class="mx-2 font-medium text-blue-600 dark:text-blue-500 bg-blue-100 hover:bg-blue-200 px-4 py-1 rounded-md">Edit</a>
+                                        class="mx-2 font-medium text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 hover:bg-blue-200 dark:hover:bg-blue-700 px-4 py-1 rounded-md">Edit</a>
                                     <a href="#"
-                                        class="mx-2 font-medium text-red-600 dark:text-red-500 bg-red-100 hover:bg-red-200 px-4 py-1 rounded-md">Delete</a>
+                                        class="mx-2 font-medium text-red-600 dark:text-red-200 bg-red-100 dark:bg-red-600 hover:bg-red-200 dark:hover:bg-red-700 px-4 py-1 rounded-md">Delete</a>
                                 </td>
                             </tr>
                         </tbody>
@@ -754,7 +748,7 @@
 
             <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4 mb-4">
                 <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <div class="w-full bg-gray-50 rounded-lg p-4 md:p-6">
+                    <div class="w-full bg-gray-50 dark:bg-gray-800 rounded-lg p-4 md:p-6">
                         <div class="flex items-center justify-between">
                             <h5 class="leading-none text-3xl font-bold text-gray-900 dark:text-white pb-2">Logsheet
                             </h5>
