@@ -174,91 +174,91 @@
     </aside>
 
     <div class="p-4 sm:ml-64">
-        <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
-            <div class="flex items-center justify-between mb-4">
-                <h1 class="text-3xl font-bold font-poppins">Customers</h1>
-                <div class="flex">
-                    <div
-                        class="flex items-center text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 hover:bg-blue-200 dark:hover:bg-blue-700 px-2 py-1 rounded-lg whitespace-nowrap">
-                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
-                            height="24" fill="none" viewBox="0 0 24 24">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M5 12h14m-7 7V5" />
-                        </svg>
-                        <a href="../customer/add.html">
-                            <h1 class="text-md font-medium px-2">
-                                Add Customer
-                            </h1>
-                        </a>
+        <div id="customer-body" class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700 mt-14">
+            <div id="customer-overview-container">
+                <div class="flex items-center justify-between mb-4">
+                    <h1 class="text-3xl font-bold font-poppins">Customers</h1>
+                    <div class="flex">
+                        <div id="add-customer-button"
+                            class="flex items-center text-blue-600 dark:text-blue-100 bg-blue-100 dark:bg-blue-600 hover:bg-blue-200 dark:hover:bg-blue-700 px-2 py-1 rounded-lg whitespace-nowrap hover:cursor-pointer">
+                            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" fill="none" viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M5 12h14m-7 7V5" />
+                            </svg>
+                                <h1 class="text-md font-medium px-2">
+                                    Add Customer
+                                </h1>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
-                <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <a href="#"
-                        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img class="p-4 object-cover w-full rounded-t-lg h-96    md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                            src="../../img/cust-img/logo-smkn20.png" alt="">
-                        <div class="justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 20
-                                Jakarta</h5>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jalan Melati No.24 RT. 013 RW.
-                                010, Cilandak Barat
-                                12430, Cilandak, Kota Jakarta Selatan</p>
-                            <span
-                                class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 whitespace-nowrap">Payment
-                                completed</span>
-                            <span
-                                class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300 whitespace-nowrap">Unscheduled
-                                class</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <a href="#"
-                        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img class="p-4 object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                            src="../../img/cust-img/logo-smkn43.png" alt="">
-                        <div class="justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 43
-                                Jakarta</h5>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jalan Cipulir 1 No.1 RT 001 RW
-                                004, Cipulir 12230, Kebayoran Lama, Kota Jakarta Selatan</p>
-                            <span
-                                class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 whitespace-nowrap">Payment
-                                completed</span>
-                            <span
-                                class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300 whitespace-nowrap">Tutor
-                                unavailable</span>
-                        </div>
-                    </a>
-                </div>
-                <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
-                    <a href="#"
-                        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <img class="p-4 object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
-                            src="../../img/cust-img/logo-smkn59.png" alt="">
-                        <div class="justify-between p-4 leading-normal">
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 59
-                                Jakarta</h5>
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jl. Peninggaran Barat I RT 012
-                                RW 011, Kebayoran Lama
-                                Utara 12240, Kebayoran Lama, Kota Jakarta Selatan</p>
-                            <span
-                                class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300 whitespace-nowrap">No
-                                confirmation</span>
-                        </div>
-                    </a>
+                <div class="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+                    <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
+                        <a href="#"
+                            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <img class="p-4 object-cover w-full rounded-t-lg h-96    md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                                src="../../img/cust-img/logo-smkn20.png" alt="">
+                            <div class="justify-between p-4 leading-normal">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 20
+                                    Jakarta</h5>
+                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jalan Melati No.24 RT. 013 RW.
+                                    010, Cilandak Barat
+                                    12430, Cilandak, Kota Jakarta Selatan</p>
+                                <span
+                                    class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 whitespace-nowrap">Payment
+                                    completed</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300 whitespace-nowrap">Unscheduled
+                                    class</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
+                        <a href="#"
+                            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <img class="p-4 object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                                src="../../img/cust-img/logo-smkn43.png" alt="">
+                            <div class="justify-between p-4 leading-normal">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 43
+                                    Jakarta</h5>
+                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jalan Cipulir 1 No.1 RT 001 RW
+                                    004, Cipulir 12230, Kebayoran Lama, Kota Jakarta Selatan</p>
+                                <span
+                                    class="bg-green-100 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 whitespace-nowrap">Payment
+                                    completed</span>
+                                <span
+                                    class="bg-yellow-100 text-yellow-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-yellow-900 dark:text-yellow-300 whitespace-nowrap">Tutor
+                                    unavailable</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex rounded-sm bg-gray-50 h-auto dark:bg-gray-800">
+                        <a href="#"
+                            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                            <img class="p-4 object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                                src="../../img/cust-img/logo-smkn59.png" alt="">
+                            <div class="justify-between p-4 leading-normal">
+                                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">SMKN 59
+                                    Jakarta</h5>
+                                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jl. Peninggaran Barat I RT 012
+                                    RW 011, Kebayoran Lama
+                                    Utara 12240, Kebayoran Lama, Kota Jakarta Selatan</p>
+                                <span
+                                    class="bg-red-100 text-red-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-full dark:bg-red-900 dark:text-red-300 whitespace-nowrap">No
+                                    confirmation</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
-
-    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="index.js"></script>
+    <!-- <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts@3.46.0/dist/apexcharts.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
-    <script src="../../src/chart.js"></script>
+    <script src="../../src/chart.js"></script> -->
 
 </body>
 
