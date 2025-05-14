@@ -200,7 +200,7 @@
     </div>
 
     <!-- Tambahkan modal untuk create/edit -->
-    <div id="project-modal" tabindex="-1" aria-hidden="true" class="hidden fixed inset-0 z-50 flex justify-center items-center w-full h-full bg-black bg-opacity-50">
+    <div id="project-modal" tabindex="-1" aria-hidden="true" class="hidden fixed inset-0 z-50 overflow-x-auto justify-center items-start w-full h-full bg-black bg-opacity-50">
         <div class="relative p-4 w-full max-w-4xl h-[90vh]"> <!-- Changed height to viewport height -->
             <div class="relative bg-white rounded-lg shadow dark:bg-gray-700 h-full flex flex-col">
                 <!-- Header -->
